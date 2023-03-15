@@ -1,0 +1,12 @@
+.home-layout {
+  flex-direction: column;
+  background-color: black;
+}
+
+.home-layout__content {
+  display: flex;
+}
+
+.content {
+  flex-direction: column;
+}

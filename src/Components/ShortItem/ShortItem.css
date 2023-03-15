@@ -1,0 +1,32 @@
+.short {
+  color: white;
+  flex-direction: column;
+  margin: 10px;
+}
+.short-img__big {
+  border-radius: 10px;
+  width: 100%;
+  height: 283px;
+  object-fit: cover;
+}
+.short-text {
+  display: flex;
+}
+
+.short-info {
+  flex-direction: row;
+}
+.short-info__title {
+  font-size: 14px;
+  word-wrap: break-word;
+}
+
+.short-info__view {
+  font-size: 12px;
+  color: rgb(177, 177, 177);
+}
+
+@media (min-width: 768px) {
+  .short-img__big {
+  }
+}
