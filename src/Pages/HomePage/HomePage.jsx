@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./HomePage.css";
 import Card from "../../Components/Card/Card";
 import { dataCard, dataShort } from "../../Components/Card/dataCard";
@@ -7,6 +7,7 @@ import ytb_short from "../../assets/images/youtube-shorts-icon.png";
 import { AiOutlineClose } from "react-icons/ai";
 import Sidebar from "../../Components/Sidebar/Sidebar";
 import ShortItem from "../../Components/ShortItem/ShortItem";
+import Music from "../../Components/Music/Music";
 
 const HomePage = () => {
   return (
@@ -19,6 +20,7 @@ const HomePage = () => {
               return (
                 <Card
                   key={i}
+                  link={item.link}
                   imageBig={item.imgBig}
                   imageSmall={item.imgSmall}
                   title={item.title}
