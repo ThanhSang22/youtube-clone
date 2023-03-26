@@ -1,13 +1,15 @@
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
-import SittingLayout from "./Layouts/SittingLayout/SittingLayout";
 import HomePage from "./Pages/HomePage/HomePage";
+import SittingPage from "./Pages/SittingPage/SittingPage";
+import WatchPage from "./Pages/WatchPage/WatchPage";
 
 function App() {
   return (
     <Routes>
       <Route path="/" element={<HomePage />} />
-      <Route path="/account" element={<SittingLayout />} />
+      <Route path="/account" element={<SittingPage />} />
+      <Route path="/watch" element={<WatchPage />} />
     </Routes>
     // <div>
     //   <Header />

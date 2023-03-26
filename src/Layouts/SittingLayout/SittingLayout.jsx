@@ -1,12 +1,10 @@
 import React from "react";
 import Header from "../../Components/Header/Header";
-import SittingPage from "../../Pages/SittingPage/SittingPage";
 
 const SittingLayout = ({ children }) => {
   return (
-    <div>
+    <div className="layout" style={{ flexDirection: "column" }}>
       <Header />
-      <SittingPage />
       {children}
     </div>
   );

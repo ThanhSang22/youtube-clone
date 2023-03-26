@@ -1,0 +1,42 @@
+.watch-page {
+  display: flex;
+  width: 100%;
+}
+
+.watch {
+  width: 70%;
+}
+
+.watch-page__list {
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+}
+
+.watch-page__list-options {
+  display: flex;
+  overflow-y: scroll;
+  width: 80%;
+  margin: 10px 20px 0;
+  justify-content: center;
+  align-self: center;
+}
+
+.listOptionWatch {
+  height: 20px;
+  color: white;
+  background-color: rgb(83 82 82 / 75%);
+}
+
+.watch-page__list-video {
+  width: 442px;
+  margin: 10px 40px 10px 0;
+}
+
+.listCard {
+  width: 90%;
+  /* height: 197px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

@@ -3,9 +3,9 @@ import SittingLayout from "../../Layouts/SittingLayout/SittingLayout";
 
 const SittingPage = () => {
   return (
-    <div>
+    <SittingLayout>
       <div>SittingPage</div>
-    </div>
+    </SittingLayout>
   );
 };
 

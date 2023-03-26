@@ -1,0 +1,49 @@
+.comment {
+  display: flex;
+  font-size: 13px;
+  color: aliceblue;
+  margin-bottom: 10px;
+}
+
+.comment-des {
+  margin-left: 10px;
+}
+
+.comment-account {
+  display: flex;
+  font-weight: 600;
+  object-fit: cover;
+}
+
+.comment-time {
+  color: gray;
+  margin-left: 10px;
+  font-weight: 300;
+}
+
+.comment-content {
+}
+
+.comment-react {
+  display: flex;
+}
+
+.button-like {
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.button-like:hover {
+  background-color: rgb(83 82 82 / 75%);
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.button-feedback {
+  border-radius: 20px;
+  margin-right: 10px;
+  font-weight: 600;
+  font-size: 12px;
+}
