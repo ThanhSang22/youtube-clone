@@ -1,0 +1,109 @@
+.watch-component {
+  width: 70%;
+  color: white;
+}
+
+.img__big {
+  width: 100%;
+}
+
+.watch-name {
+}
+
+.watch-deps {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.watch-deps__item1 {
+  display: flex;
+  align-items: center;
+}
+
+.img__small {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.watch-info {
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.watch-accout {
+}
+
+.watch-follow {
+  color: gray;
+  font-size: 12px;
+}
+
+.button-watch {
+  background-color: white;
+  border-radius: 20px;
+  color: black;
+  margin-right: 10px;
+  /* padding: 5px 10px; */
+}
+
+.button-watch:hover {
+  background-color: rgba(228, 224, 224, 0.95);
+}
+
+.watch-deps__item1 {
+}
+
+.buttonWatch {
+  background-color: rgb(83 82 82 / 75%);
+  border-radius: 20px;
+  /* padding: 5px 10px; */
+  margin-right: 10px;
+}
+
+.button-dot {
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: rgb(83 82 82 / 75%);
+}
+
+.button-dot:hover {
+  background-color: rgba(228, 224, 224, 0.35);
+}
+
+.buttonWatch:hover {
+  background-color: rgba(228, 224, 224, 0.35);
+}
+
+.watch-description {
+  color: #e7e3e3;
+  font-size: 13px;
+  background-color: rgb(83 82 82 / 75%);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.watch-comment {
+}
+
+.first-comment {
+  display: flex;
+  align-self: center;
+  margin: 15px 0;
+  font-size: 15px;
+}
+
+.comment-total {
+  margin-right: 2px;
+  display: flex;
+  align-items: center;
+}
+
+.watch-short:hover {
+  background: none;
+}

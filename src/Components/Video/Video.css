@@ -1,0 +1,10 @@
+.video-img__big {
+  height: 100px;
+  width: 150px;
+}
+
+.video-popup {
+  position: absolute;
+  transform: translateX(-273px);
+  width: 200px;
+}
