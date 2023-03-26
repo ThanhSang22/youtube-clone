@@ -5,7 +5,8 @@
 
 .home-page__video {
   overflow: scroll;
-  height: calc(100vh - 120px);
+  height: calc(100vh - 116px);
+  margin: 10px;
 }
 
 .home-page__card {

@@ -1,8 +1,12 @@
 import { AiOutlineMenuUnfold } from "react-icons/ai";
 import { BiTimeFive } from "react-icons/bi";
-import { RiMenuAddLine, RiForbid2Line } from "react-icons/ri";
+import { RiMenuAddLine } from "react-icons/ri";
 import { TbShare3 } from "react-icons/tb";
-import { MdOutlineOutlinedFlag, MdNotInterested } from "react-icons/md";
+import {
+  MdOutlineOutlinedFlag,
+  MdNotInterested,
+  MdOutlineDoNotDisturbOn,
+} from "react-icons/md";
 
 export const dataPopUp = [
   {
@@ -29,7 +33,7 @@ export const dataPopUp2 = [
     name: "Không quan tâm",
   },
   {
-    icon: <BiTimeFive />,
+    icon: <MdOutlineDoNotDisturbOn />,
     name: "Không đề xuất kênh này",
   },
   {

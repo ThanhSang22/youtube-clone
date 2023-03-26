@@ -2,11 +2,10 @@ import React from "react";
 import "./PopUp.css";
 import Button from "../Button/Button";
 import { dataPopUp, dataPopUp2 } from "./dataPopUp";
-import styles from "../../App.css";
 
-const PopUp = ({ setIsOpen }) => {
+const PopUp = ({ setIsOpen, className }) => {
   return (
-    <div onClick={() => setIsOpen(false)} className="pop-up">
+    <div onClick={() => setIsOpen(false)} className={`pop-up ${className}`}>
       <div className="pop-up-body" onClick={(e) => e.stopPropagation()}>
         <div className="pop-up__item1">
           {dataPopUp &&
