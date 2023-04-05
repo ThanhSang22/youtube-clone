@@ -1,8 +1,8 @@
 export const dataSidebar = [
-  {
-    icon: null,
-    name: "Tất cả",
-  },
+  // {
+  //   icon: null,
+  //   name: "Tất cả",
+  // },
   {
     icon: null,
     name: "Âm nhạc",
@@ -35,18 +35,18 @@ export const dataSidebar = [
     icon: null,
     name: "Nấu ăn",
   },
-  // {
-  //   icon: null,
-  //   name: "Mới tải lên gần đây",
-  // },
-  // {
-  //   icon: null,
-  //   name: "Đã xem",
-  // },
-  // {
-  //   icon: null,
-  //   name: "Đề xuất mới",
-  // },
+  {
+    icon: null,
+    name: "Mới tải lên gần đây",
+  },
+  {
+    icon: null,
+    name: "Đã xem",
+  },
+  {
+    icon: null,
+    name: "Đề xuất mới",
+  },
   {
     icon: null,
     name: "Bóng đá",

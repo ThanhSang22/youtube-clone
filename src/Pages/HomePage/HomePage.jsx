@@ -7,16 +7,43 @@ import ytb_short from "../../assets/images/youtube-shorts-icon.png";
 import { AiOutlineClose } from "react-icons/ai";
 import Sidebar from "../../Components/Sidebar/Sidebar";
 import ShortItem from "../../Components/ShortItem/ShortItem";
-import Music from "../../Components/Music/Music";
+import { dataSidebar } from "../../Components/Sidebar/dataSidebar";
+import Button from "../../Components/Button/Button";
 
 const HomePage = () => {
+  const [filterCard, setFilterCard] = useState(dataCard);
+
+  const handleCard = (name) => {
+    const filterCardItem = filterCard.filter((data) => data.category === name);
+
+    setFilterCard(filterCardItem);
+  };
+
   return (
     <DefaultLayout>
-      <Sidebar />
+      <Sidebar
+        className="home-page__sidebar"
+        setFilterCard={setFilterCard}
+        filterCard={handleCard}
+      />
       <div className="home-page__video">
         <div className="home-page__card">
-          {dataCard &&
-            dataCard.map((item, i) => {
+          {/* {dataFilter &&
+            dataFilter.map((item, i) => {
+              return (
+                <Card
+                  key={i}
+                  link={item.link}
+                  imageBig={item.imgBig}
+                  imageSmall={item.imgSmall}
+                  title={item.title}
+                  profile={item.profile}
+                  view={item.view}
+                />
+              );
+            })} */}
+          {filterCard &&
+            filterCard.map((item, i) => {
               return (
                 <Card
                   key={i}

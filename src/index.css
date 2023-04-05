@@ -2,7 +2,7 @@
 
 * {
   margin: 0;
-  box-sizing: content-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -20,6 +20,28 @@ code {
 hr {
   border: 0.5px solid rgb(168, 163, 163);
   margin: 10px 0;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 100%;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: none;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
 
 .flex {
