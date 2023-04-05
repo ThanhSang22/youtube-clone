@@ -5,9 +5,12 @@
 
 .img__big {
   width: 100%;
+  border-radius: 10px;
 }
 
 .watch-name {
+  font-weight: 500;
+  font-size: 19px;
 }
 
 .watch-deps {
@@ -64,7 +67,7 @@
 
 .button-dot {
   color: white;
-  font-size: 20px;
+  font-size: 40px;
   cursor: pointer;
   padding: 10px;
   border-radius: 50%;

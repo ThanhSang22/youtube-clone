@@ -5,13 +5,12 @@ import Button from "../Button/Button";
 
 const Comment = ({ img, className, nameAcc, des, time, countt }) => {
   const [count, setCount] = useState(countt);
-  const [disCount, setDisCount] = useState(setCount);
+  const [disCount, setDisCount] = useState(0);
 
   // Function to increment count by 1
   const incrementCount = () => {
     // Update state with incremented value
     setCount(countt + 1);
-    setDisCount(disCount - 1);
   };
   return (
     <div className={`comment ${className}`}>
@@ -25,7 +24,7 @@ const Comment = ({ img, className, nameAcc, des, time, countt }) => {
         <div className="comment-react">
           <AiOutlineLike
             className="button-like"
-            onClick={() => setCount(incrementCount)}
+            onClick={() => incrementCount()}
           />
           {setCount && (
             <p
@@ -37,9 +36,18 @@ const Comment = ({ img, className, nameAcc, des, time, countt }) => {
               {count}
             </p>
           )}
-
-          <AiOutlineDislike className="button-like" />
-
+          <AiOutlineDislike
+            className="button-like"
+            onClick={() => setDisCount(disCount + 1)}
+          />
+          <p
+            style={{
+              alignItems: "center",
+              display: "flex",
+            }}
+          >
+            {disCount}
+          </p>
           <Button name={"Phản hồi"} className="button-feedback " />
         </div>
       </div>
